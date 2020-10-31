@@ -28,7 +28,7 @@
         <img src ="./icon.png">
         <h1 align ="center">Digital Library</h1>
         
-        <% //Author: Vinay M
+        <% 
             
             String logged = "0";
             String username = "";
@@ -86,12 +86,3 @@
         
     </body>
 </html>
-<!--
-            <div class="card" >
-                <h3> Book Title: </h2>
-                <h3> Book Author: </h2>
-                <form action ="reader.jsp" method="post">
-                <input  type="submit" value="Read" style = "padding: 10px;"/>
-                </form>
-            </div>
--->

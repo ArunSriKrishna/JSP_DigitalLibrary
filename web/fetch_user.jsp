@@ -48,7 +48,7 @@ try
             {
                 out.println("<h2 align = \"center\">Sucessfully Logged in! <a href = \"library.jsp\"> Continue</a> </h2>"); 
                 
-                session.setAttribute("loged", 1); //Author     : Vinay M
+                session.setAttribute("loged", 1);
                 session.setAttribute("username", username); 
                 
             }
