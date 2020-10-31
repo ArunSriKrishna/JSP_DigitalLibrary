@@ -20,26 +20,26 @@
         
         <h1 align = center> Register </h1>
         
-                <form action="push_register.jsp" method="post">
+                <form action="add_user.jsp" method="post">
 			<table style = "padding: 20px;" align="center">
 
 				<tr>
 					<td>Username</td>
-					<td><input type="text" name="username" /></td>
+					<td><input type="text" name="username" required/></td>
 				</tr>
                                 
                                 <tr>
 					<td>Name</td>
-					<td><input type="text" name="fullname" /></td>
+					<td><input type="text" name="fullname" required/></td>
 				</tr>
                                 
 				<tr>
 					<td>Password</td>
-					<td><input type="password" name="password" /></td>
+					<td><input type="password" name="password" required/></td>
 				</tr>
                                 <tr>
 					<td>Confirm Password</td>
-					<td><input type="password" name="password" /></td>
+					<td><input type="password" name="confirmpassword" required/></td>
 				</tr>
                                 
                                 <tr>
